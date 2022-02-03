@@ -1,6 +1,6 @@
 {
-  "name": "rescript-project-template",
-  "version": "0.0.1",
+  "name": "rescript-chokidar",
+  "version": "0.1.0",
   "description": "Rescrip project template",
   "main": "./Main.bs.js",
   "scripts": {
@@ -9,16 +9,19 @@
     "start": "rescript build -w"
   },
   "keywords": [
-    "rescript"
+    "rescript",
+    "chokidar",
+    "watch"
   ],
   "contributors": [
     "Roman Pominov"
   ],
-  "homepage": "https://github.com/rpominov/rescript-project-template#readme",
-  "bugs": "https://github.com/rpominov/rescript-project-template/issues",
-  "repository": "github:rpominov/rescript-project-template",
+  "homepage": "https://github.com/rpominov/rescript-chokidar#readme",
+  "bugs": "https://github.com/rpominov/rescript-chokidar/issues",
+  "repository": "github:rpominov/rescript-chokidar",
   "license": "MIT",
   "dependencies": {
-    "rescript": "*"
+    "rescript": "^9.1.4",
+    "rescript-anymatch": "^0.1.0"
   }
 }
