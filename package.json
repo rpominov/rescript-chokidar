@@ -1,7 +1,7 @@
 {
   "name": "rescript-chokidar",
   "version": "0.1.0",
-  "description": "Rescrip project template",
+  "description": "ReScript bindings for chokidar",
   "main": "./Main.bs.js",
   "scripts": {
     "build": "rescript",
