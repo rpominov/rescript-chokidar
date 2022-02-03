@@ -113,7 +113,9 @@ Chokidar.watch(
       (),
     ),
     ~ignorePermissionErrors=false,
-    ~atomic=Chokidar.atomicOn, // or a custom 'atomicity delay' (Chokidar.atomicCustom), in milliseconds (default 100)
+
+    // or a custom 'atomicity delay' (Chokidar.atomicCustom), in milliseconds (default 100)
+    ~atomic=Chokidar.atomicOn,
     (),
   ),
   "file",
