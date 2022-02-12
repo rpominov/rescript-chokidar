@@ -1,6 +1,6 @@
 {
   "name": "rescript-chokidar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ReScript bindings for chokidar",
   "main": "./Main.bs.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "repository": "github:rpominov/rescript-chokidar",
   "license": "MIT",
   "dependencies": {
+    "chokidar": "^3.5.3",
     "rescript": "^9.1.4",
     "rescript-anymatch": "^0.1.0"
   }
