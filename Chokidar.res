@@ -48,7 +48,7 @@ let watchMany = (~options=?, dirs) => watchMany(dirs, options)
 
 @send external getWatched: watcher => Js.Dict.t<array<string>> = "getWatched"
 
-@send external close: watcher => Js.Promise.t<unit> = "getWatched"
+@send external close: watcher => Js.Promise.t<unit> = "close"
 
 @ocaml.doc("https://nodejs.org/api/fs.html#class-fsstats")
 type stats
